@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+  /* background container */
+
+  .background {
+    background-image: url('https://images.unsplash.com/photo-1593504049359-74330189a345?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3027&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 115vh; 
+    width: 45%; 
+    float: left; /* Float the background to the left */
+    
+    
+}
+
+
+/* form container */
+.form-container {
+    width: 50%; 
+    height: 100vh; 
+    float: right; 
+    background-color: white; 
+    padding: 35px;
+}
+h1{
+ color: #fff;
+padding: 5px;
+text-align: center;
+display: inline; /* the default for span */
+width: 100px;
+height: 100px;
+padding: 5px;
+border: 1px solid black;
+background-color: black;
+
+}
